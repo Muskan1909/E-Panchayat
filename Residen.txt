@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<!-- Template by quackit.com -->
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>E Panchayat</title>
+	<link rel="stylesheet" type="text/css" href="chat box style.css">
+	<script src="src/recorder.js"></script>
+
+	<script src="src/Fr.voice.js"></script>
+
+	<script src="js/jquery.js"></script>
+
+	<script src="js/app.js"></script>
+
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<style type="text/css">
+
+		/* Layout */
+		body {
+			min-width: 630px;
+		}
+
+		#container {
+			padding-left: 220px;
+			padding-right: 310px;
+		}
+		
+		#container .column {
+			position: relative;
+			float: left;
+		}
+		
+		#center {
+			padding: 20px 20px;
+			width: 100%;
+		}
+		
+		#left {
+			width: 200px;
+			padding: 0 10px;
+			right: 260px;
+			margin-left: -100%;
+		}
+		
+		#right {
+			width: 400px;
+			padding: 0 10px;
+			margin-right: -100%;
+		}
+		
+		#footer {
+			clear: both;
+		}
+		
+		/* IE hack */
+		* html #left {
+			left: 150px;
+		}
+
+		/* Make the columns the same height as each other */
+		#container {
+			overflow: hidden;
+		}
+
+		#container .column {
+			padding-bottom: 1001em;
+			margin-bottom: -1000em;
+		}
+
+		/* Fix for the footer */
+		* html body {
+			overflow: hidden;
+		}
+		
+		* html #footer-wrapper {
+			float: left;
+			position: relative;
+			width: 100%;
+			padding-bottom: 10010px;
+			margin-bottom: -10000px;
+			background: #fff;
+		}
+
+		/* Aesthetics */
+		body {
+			margin: 0;
+			padding: 1;
+			font-family:Sans-serif;
+			line-height: 1.2em;
+		}
+		
+		p {
+			color: #555;
+		}
+
+		nav ul {
+			list-style-type:circle;
+			margin: 0;
+			padding: 0;
+		}
+		
+		nav ul a {
+			color: darkgreen;
+			text-decoration: none;
+		}
+
+		#header, #footer {
+			font-size: large;
+			padding: 0.3em;
+			background: #BCCE98;
+		}
+
+		#left {
+			background: #DAE9BC;
+		}
+		
+		#right {
+			background: #F7FDEB;
+		}
+
+		#center {
+			background: #fff;
+		}
+
+		#container .column {
+			padding-top: 1em;
+		}
+		.div1 {
+    width: 800px;
+    height: 60px;
+    padding: 10px;
+    border: 2px solid green;
+    box-sizing: border-box;
+    font-weight: 900;
+}
+.div2 {
+    width: 800px;
+    height: 60px;    
+    padding: 10px;
+    border: 2px solid green;
+    box-sizing: border-box;
+    font-weight: 900;
+}
+.div3 {
+    width: 800px;
+    height: 60px;
+    padding: 10px;
+    border: 2px solid green;
+    box-sizing: border-box;
+     font-weight: 900;
+    
+}
+.div4{
+    width: 800px;
+    height: 60px;
+    padding: 10px;
+    border: 2px solid green;
+    box-sizing: border-box;
+     font-weight: 900;
+}
+fieldset{
+width:30px;
+}
+/* unvisited link */
+a:link {
+    color: red;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+		
+	</style>
+<!--Start of Zendesk Chat Script-->
+<script type="text/javascript">
+window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
+d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
+_.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute("charset","utf-8");
+$.src="https://v2.zopim.com/?55poNhdwYALEZOS6DjiB5MLrfQxLulry";z.t=+new Date;$.
+type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
+</script>
+<!--End of Zendesk Chat Script-->
+		
+</head>
+
+<body>
+
+	<header id="header"><p>Welcome Sarpanch ji!!!</p></header>
+
+	<div id="container">
+
+		<main id="center" class="column">
+	
+
+			<style>
+fieldset{
+width:30px;
+margin-left:200px;
+margin-top:5px;
+}
+.div1 {
+    width: 800px;
+    height: 60px;
+    padding: 10px;
+    border: 2px solid green;
+    box-sizing: border-box;
+    font-weight: 900;
+}
+.div2 {
+    width: 800px;
+    height: 60px;    
+    padding: 10px;
+    border: 2px solid green;
+    box-sizing: border-box;
+    font-weight: 900;
+}
+.div3{
+    width: 200px;
+    height: 400px;
+    padding: 50px;
+    border: 1px solid green;
+    float: left;
+    overflow:scroll;
+}
+fieldset{
+width:30px;
+margin-left:25px;
+margin-top: 0px;
+}
+</style>
+</head>
+<body>
+<div style="height: 800px; border-left: 2px solid black; left: 320px; position:absolute;">
+<h3>Tasks</h3>
+<fieldset>
+<h3><font color="darkblue"></font></h3>
+<form>
+	<h3><font color="darkblue">Name of Complaint:</font><input type="text" placeholder="Name of complaint"></h3>
+</form>
+<h3><font color="darkblue">Description of Complaint</font></h3>
+	<div class="div1">Describe the complaint</div>
+	<br><input type="button" value="File a complaint" style="width:120px;height:30px;"></font>
+<h3><font color="darkblue">Suggestions</font></h3>
+	<div class="div1">The suggestions regarding the complaint will be displayed here</div>
+	<br><input type="button" value="Post the suggestion" style="width:140px;height:30px;"></font><br><br>
+<a href="">Update your profile</a>
+</fieldset>
+</div>
+<h3><font color="darkblue">Recent Activity</font></h3>
+<div class="div3">The activities done by the panchayat heads of all the villages will be displayed here.</div>	
+
+								
+		</main>
+
+		<nav id="left" class="column">
+			
+			<ul>
+				<li><a href="first page_1.html">Home</a></li>
+				<li><a href="sarpanchlogin.html">Logout</a></li>
+			</ul>
+			<h3>Recent Activity</h3>
+			<ul>
+				<li><a href="#">Information on Pradhan Mantri Gram Sadak Yojana by Ministry of Rural Development</a></li>
+				<li><a href="#">2 New Skill Development center</a></li>
+				<li><a href="#">Loan schemes for Gramin</a></li>
+				<li><a href="#">Join to improve-Swach Village Yojna</a></li>
+				<li><a href="#">Link Aadhar Card to E-panchayat </a></li>
+			</ul>
+
+		</nav>
+
+		<div id="right" class="column">
+			<h3>Leave a Voice Message </h3>
+			<a href="index.html"><img src="microphone.jpg" width="100" height="100" align="middle"></a>
+		
+
+	</div>
+	</div>
+
+
+	<div id="footer-wrapper">
+		<footer id="footer"><p><a href="">Contact Our Team..</a></p></footer>
+	</div>
+
+</body>
+
+</html>

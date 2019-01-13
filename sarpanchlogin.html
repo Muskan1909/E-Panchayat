@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<style>
+form 
+body{background-image:"C:\Users\Mannat\Desktop\farmers-main1.jpg ";
+    background-repeat: no-repeat;}
+{
+    border: 3px solid #f1f1f1;
+}
+
+input[type=text], input[type=password] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 44px 0 32px 0;
+}
+img.avatar {
+    width: 10%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+</style>
+<body>
+
+<h2><font color="green">RESIDENT LOGIN FORM</font></h2>
+
+<form action="/action_page.php">
+  <div class="imgcontainer">
+    <img src="img_avatar2.png" alt="Avatar" class="avatar">
+  </div>
+
+  <div class="container">
+   
+          <pre>                                                 <label><b><font size="5px">Sarpanch name-</font></b></label>
+                                                <input type="text" placeholder="Enter your name" name="no." required>
+                                                                <label><b><font size="5px">Aadhar card number-</font></b></label>
+                                                <input type="text" placeholder="Enter Aadhar number" name="no." required>
+                                                <button type="submit">Login</button>
+    <input type="checkbox" checked="checked"><font size="4px"> Remember me</font>
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn">Cancel</button>
+    <span class="psw">Forgot <a href="#">aadhar number?</a></span>
+  </div>
+</form>
+
+</body>
+</html>

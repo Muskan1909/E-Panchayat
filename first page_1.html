@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Main page</title>
+<style>
+body, html {
+    height: 100%;
+    margin: 0;
+}
+.bg {
+    /* The image used */
+    background-image: url("village.jpg");
+    
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+p {
+    border: 2px solid green ;
+    background-color: lightgreen;
+}
+.button { 
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image:url('search.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 100%;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.div1 {
+    width: 300px;
+    height: 300px;
+    padding: 50px;
+    border: 1px solid green;
+    float: left;
+    overflow:scroll;
+   
+}
+
+.div2 {
+    width: 300px;
+    height: 300px;    
+    padding: 50px;
+    border: 1px solid green;
+    float: left;
+    overflow:scroll;
+    
+}
+.div3{
+    width: 300px;
+    height: 300px;    
+    padding: 50px;
+    border: 1px solid green;
+    float: right;
+    overflow:scroll;
+    
+}
+pre{
+	font-family:arial;
+}
+   
+</style>
+</head>
+<body>
+<div class="bg">
+<p align="right">
+<img src="symbol.jpg" width="50" height="55" style="float: left;"></img>
+<B><font family="arial" font color="green">E-Panchayat-Bringing techonology to the village level</B></font>
+<a href="sarpanchlogin.html"><button class="button" >Sarpanch Login</a></button>                      
+<a href="hackathonreslogin.html"><button class="button" align="right">Resident Login</a></button>
+<a href="admin login.html"><button class="button">Admin Login</a></button>
+<input type="text" name="search" placeholder="Search..">
+</p>
+
+</form>
+<pre><h3>Recent activity                                                                                     Chatbox                                                                                             Suggestion</h3></pre>
+<div class="container">
+<div class="div1">The activities done by the panchayat heads of all the villages will be displayed here.</div>
+<div class="div2">Chat via voice messages for the convenience of rural people.</div>
+<div class="div3">Thoughtful suggestions are valued,respected and encouraged.The purpose of the suggestion box is to ensure better governance of village pachayats
+taking in view the theme of digital india.</div>
+</body>
+</html>
